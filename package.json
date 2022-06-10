@@ -1,0 +1,30 @@
+{
+  "name": "node_sequelize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "tsc": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guimassoqueto/node_sequelize.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guimassoqueto/node_sequelize/issues"
+  },
+  "homepage": "https://github.com/guimassoqueto/node_sequelize#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.41",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "sequelize": "^6.20.1",
+    "tedious": "^14.5.0"
+  }
+}
